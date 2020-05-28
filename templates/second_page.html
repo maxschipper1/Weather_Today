@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Weather</title>
+</head>
+
+<body style="background-image: url(https://www.reallusion.com/ContentStore/CTA/Pack/G3-Animation-Suite-Weather-Maker/images/sunny.jpg);">
+<br>
+<h1 style="text-align: center; font-size: 300%; font-family: Trebuchet MS;">The Weather Today!</h1>
+<form action="#", method="post", style="text-align: center;">
+    <div>
+        <label style="font-size: 150%; font-family: Trebuchet MS;">Choose city</label>
+    </div>
+    <div>
+    <input type="text", name="location">
+    </div>
+    <br>
+    <button>Submit</button>
+</form>
+
+<p style="text-align: center; font-family: Trebuchet MS; font-size: 115%;">The weather is: {{weather}}</p>
+<p style="text-align: center; font-family: Trebuchet MS; font-size: 115%;">The temperature is {{temp}}C° but it feels like {{feel}}C°</p>
+<p style="text-align: center; font-family: Trebuchet MS; font-size: 115%;">The wind blows {{wind}} m/s</p>
+<br><br>
+<p style="text-align: center; font-size: 150%; font-family: Trebuchet MS;">Dress {{dress}} {{wind_jacket}} {{rain_coat}}</p>
+
+</body>
+
+</html>
