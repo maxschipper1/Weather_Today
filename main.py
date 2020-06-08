@@ -1,6 +1,6 @@
 from flask import Flask, redirect, url_for, render_template, request
-import data
-import methods
+from others import data
+from others import methods
 
 app = Flask(__name__)
 #states_of_wind = [ 
